@@ -1,3 +1,5 @@
 
 
 Added two components Home.js and Products.js and added routing in App.js
+Defined array of route defination objects.
+
