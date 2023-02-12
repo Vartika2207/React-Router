@@ -1,0 +1,11 @@
+
+
+Dynamic path segments or path parameters, by adding parameter to a path such dynamic path segment.
+This is done by adding ':' (like {path: '/products/:id', element: <Page/>} here id is an identifier)
+This above line tells react-router-dom the ':id' is a dynamic path.
+Added this above functionality.
+
+Added ProductDetails.js
+Used useParams hook on ProductDetails.js
+
+In Product.js added dynamic routes.
