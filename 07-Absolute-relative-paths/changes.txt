@@ -7,7 +7,7 @@ Removed '/' from App.js, '/products/' in Link from Product.js, '/' from Home.js
 
 Tried<p><Link to='..'>Back</Link></p> in product details which means go back to previously (parent, not to sibling) route or path.
 Hence to tackle above issue used relative prop (default is 'route' which jumps to parent route) and set it to 'path' to tell to jump back 
-even its a sibling and just removed one segment from the path
+even its a sibling and just removed one segment from the path hence added <p><Link to='..' relative="path">Back</Link></p> later
 
 
 
