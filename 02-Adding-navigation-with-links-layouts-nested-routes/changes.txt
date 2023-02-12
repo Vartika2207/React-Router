@@ -1,0 +1,7 @@
+
+
+Added MainHeader.js and Root.js, in Root.js has RootLayout component, which is used in App.js as a parent and wrapper route
+and Home.js and Product.js are taken as child properties inside an array.
+
+Here RootLayout component is wrapper and appears everytime in which ever route visited, hence here we
+defined the MainNavigation component which will be rendered on all routes.
