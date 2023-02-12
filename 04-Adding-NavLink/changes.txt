@@ -1,0 +1,8 @@
+
+
+Added NavLink component from react-router-dom in MainNavigation.js which support links that should show page is active or not
+NavList takes className not as regular prop but as a function which returns the className, this function received an object.
+This object can destructured and isActive property is propvided by react-router-dom and isActive is a boolean.
+This isActive is true the link is currently active where we defined it.
+end prop is used with NavLink, which indicates that link should only be considered active if current active route ends with the path after url
+otherwise it take active pages are those all page whose routes end with the url (/p will tale '/' and '/p' as active)
