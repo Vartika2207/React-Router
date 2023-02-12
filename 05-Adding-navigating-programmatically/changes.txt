@@ -1,0 +1,4 @@
+
+
+Imperative routing using useNavigate hook to switch to diff route from inside code.
+Adding this hook in Home.js to navigate programmatically.
