@@ -1,0 +1,6 @@
+
+
+
+
+Added Index routes i.e. index: true in App.js, which means it's the default route that should be displayed 
+if the parent route's path is currently  active
