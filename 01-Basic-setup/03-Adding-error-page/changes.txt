@@ -1,0 +1,4 @@
+
+
+Added Error.js page to show component when some error encountered because of accessing incorrect route
+Used errorElement in App.js to mention error page
