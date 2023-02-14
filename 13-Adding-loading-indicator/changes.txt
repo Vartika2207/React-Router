@@ -1,0 +1,6 @@
+
+
+Added useNavigation hook in Root.js, to add loading indicator.
+This loading indicator won't be added on page which is transitioning instead
+on some page or component which is already visible on screen.
+Its not same as useEffect and a separate loading state.
