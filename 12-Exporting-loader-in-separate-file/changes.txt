@@ -1,0 +1,4 @@
+
+
+Removed loader hook from EventsPage component in Event.js insteaded exported that in a function and then accessing
+the loader fetching in App.js using a pointer to that function.
