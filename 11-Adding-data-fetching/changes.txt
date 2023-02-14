@@ -1,0 +1,6 @@
+
+
+Added loader property in router for EventsPage in App.js, loader takes a regular function
+or error function and this function will be executed by React router whenever that route is visited
+Then in App.js added fetch data logic from ....8080 inside loader property.
+React router automatically takes returned value from loader and makes it available in that component
