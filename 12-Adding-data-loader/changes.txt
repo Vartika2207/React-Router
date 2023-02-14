@@ -1,0 +1,3 @@
+
+
+Added useLoaderData hook in Events.js, and extracted events out of it and passed as prop in EventList.js
