@@ -1,0 +1,5 @@
+
+
+
+Added Error.js, PageContent.js . Throwing response object from Events.js and handling it in Error.js
+Here throw reponses and add generic handling page i.e. Error.js which is rendered with help of EventRootLayout.
