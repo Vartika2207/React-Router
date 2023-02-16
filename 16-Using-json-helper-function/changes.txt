@@ -1,0 +1,5 @@
+
+
+Added json react-router utility, which passed data as json object hence no need to parse
+json format manually (i.e. using JSON.parse).
+Hence removed JSON parsing from Error.js and added json in Events.js
