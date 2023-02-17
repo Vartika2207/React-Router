@@ -1,0 +1,15 @@
+
+
+Added action property in route path of NewEventPage App.js 
+Added Form tag provided by react-router-dom with a property called method='post' in EventForm.js
+Added an export function in NewEvent.js called action which takes params and request as arguments
+Imported that above action in App.js as newEventAction
+Added redirect function in NewEven.js to get redirected to diff route
+
+
+
+
+
+
+
+
