@@ -1,0 +1,18 @@
+
+Updated App.js, MainNavigation.js, added Newsletter.js, NewsletterSignup.js
+In NewsletterSignup.js can use Form which triggers action that belongs to currently active route.
+But Form not used since newslettersignup is part of main navigation.
+Instead used fetcher.Form which triggers an action but will not initialize route transition.
+It should be used when wanted to trogger an action or loader with help of load function without 
+navigating to the page to which loader belongs or page where action belongs.
+
+
+
+
+
+
+
+
+
+
+
