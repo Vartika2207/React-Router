@@ -1,0 +1,4 @@
+
+
+Added defer in EventDetail.js and other changes.
+Fixed broken links in EventList.js
