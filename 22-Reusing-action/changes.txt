@@ -1,0 +1,5 @@
+
+
+Added dynamic method fetching in EventForm {method} not as 'post' to ensure reusability.
+In NewEvent.js and EditEvent.js added post, patch methods.
+Removed action from NewEvent and added all logic in EventForm.js and imported that in App.js as manipulateEventAction for edit, add
