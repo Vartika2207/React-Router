@@ -1,0 +1,4 @@
+
+
+While form submission added hook in EventForm.js i.e. useNavigation and enabled button disabling is form is getting submitted.
+useNavigation function provides properties which can be used to know the state of transition if submitting or anything else.
