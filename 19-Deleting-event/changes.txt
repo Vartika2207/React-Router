@@ -1,0 +1,8 @@
+
+
+Added confirm() function in EventItem.js. To delete event from EventItem action needed to be triggered.
+This EventItem.js is rendered in EventDetail.js hence here action will be added named action
+Added redirect in EventDetails.js if response.ok is true.
+Added as import under EventDetailPage named eventDelete and added it under eventDetailLoader's childern array.
+In EventDetail.js configured action while sending delete request by adding method received from request argument provided in data object,
+Now data can be submitted and trigger action programmatically.
