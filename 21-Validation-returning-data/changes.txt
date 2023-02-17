@@ -1,0 +1,6 @@
+ 
+
+Added client side validation in NewEvent.js renders EventForm.js
+added useAction hook in EventForm.js.
+Picking up actions returned and added a validation server-side check and thrown a error list in EventForm.js
+if any invalid input encoutered.
