@@ -1,0 +1,5 @@
+
+
+Adding defer state which means to show some part of page before the page is fully loaded.
+Added Await provided by react-router-dom
+Added changes to Events.js
