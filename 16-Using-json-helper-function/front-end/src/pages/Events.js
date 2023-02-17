@@ -23,7 +23,7 @@ export async function loader() {
         if (!response.ok) {
           // throw new Response(JSON.stringify({message: 'could not fetch events.'}), {status: 500});
           // json is utility provided by react-router, it creates a response object with json format
-          return json(
+          throw json(
              {message: 'could not fetch events.'},
              {status: 500}
           );
